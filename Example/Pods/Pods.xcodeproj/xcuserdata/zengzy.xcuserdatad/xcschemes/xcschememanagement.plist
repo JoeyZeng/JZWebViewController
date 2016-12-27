@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>JZWebViewController-JZWebViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JZWebViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-JZWebViewController_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-JZWebViewController_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4C9F4DF5B6C0581B6BADE1F04A38C621</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7ACB45C48B12BA9DC25ADD657B48A74</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E7E55B4E229766F3C5A2B4C65E288FD5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E87983FD5311A9565B01FF232D0DAC6A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

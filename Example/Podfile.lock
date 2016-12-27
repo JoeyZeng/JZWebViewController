@@ -1,0 +1,16 @@
+PODS:
+  - JZWebViewController (0.1.0)
+
+DEPENDENCIES:
+  - JZWebViewController (from `../`)
+
+EXTERNAL SOURCES:
+  JZWebViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JZWebViewController: 6ba3625516f22df278662127816151d43a3c9da9
+
+PODFILE CHECKSUM: ca54bfc0688ea5ca543cc92540f0e933337dc41a
+
+COCOAPODS: 1.1.1

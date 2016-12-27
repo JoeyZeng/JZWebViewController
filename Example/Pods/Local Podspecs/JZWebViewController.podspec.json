@@ -1,0 +1,27 @@
+{
+  "name": "JZWebViewController",
+  "version": "0.1.0",
+  "summary": "A short description of JZWebViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/JZWebViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Joey": "zzying77@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/JZWebViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JZWebViewController/Classes/**/*",
+  "resource_bundles": {
+    "JZWebViewController": [
+      "JZWebViewController/Assets/*.png"
+    ]
+  }
+}

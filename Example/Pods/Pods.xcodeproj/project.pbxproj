@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A365AC2207C49639371832DA9DBC7B /* jz_icon_arrowback_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC48AF033B681D20BD0BA7C1CAEB961 /* jz_icon_arrowback_hl@2x.png */; };
+		0ECE822DB21D85549C2348EBB847B502 /* JZWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7167684DBCA91B0D972501D78A215AD0 /* JZWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43A53D3ECBE62952C5A219CEF3093133 /* Pods-JZWebViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF9D93BD012F0AAF32A3F8EBFB41C69 /* Pods-JZWebViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56172F5353FACB782B761C86C4E26676 /* JZWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 723058FDE5BAFD37EDBFB4907A62ACDB /* JZWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		595C1679DB58DEE11601243A16DAE7AA /* JZWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 831E5A5273CBFEE3FC582FA842A59784 /* JZWebViewController.bundle */; };
+		940DC816318EA129326B4E23537642F8 /* jz_icon_arrowback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE689FBFFCD9710F52009A584846E961 /* jz_icon_arrowback@2x.png */; };
+		9445C1CB58EB77F481E37CBE8986459F /* JZWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FD844B0022CF38618770FAF3222401 /* JZWebViewController.m */; };
+		A08F592533513AB5480A9B25DC8772C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BA523448286BED70CF63D554601FA736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CC90C87145489873FA5DD648F79A82EE /* Pods-JZWebViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5657D3435447F904C9B4F27C6BB3F7 /* Pods-JZWebViewController_Tests-dummy.m */; };
+		CED3C8228DC942B00DE18F48788F6181 /* Pods-JZWebViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2988D7F1EEBDA89D54E3F45D57842C /* Pods-JZWebViewController_Example-dummy.m */; };
+		D232B1CEC411460597BED61A164FFCA5 /* JZWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA577A9724B70ED15D1E294987CC7A21 /* JZWebViewController-dummy.m */; };
+		EB00B11115692D275F05AFB38234A6C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		ED9111ADEE5D2E647A0F67A843F6D18C /* Pods-JZWebViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 034EDE21158D0FAF67D852241B042810 /* Pods-JZWebViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C50392A45ECA3756F8A5E73C44AA6582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7ACB45C48B12BA9DC25ADD657B48A74;
+			remoteInfo = JZWebViewController;
+		};
+		EBC315C369F3C7E75F5E6DCDA974BAEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C9F4DF5B6C0581B6BADE1F04A38C621;
+			remoteInfo = "JZWebViewController-JZWebViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010D73A7E0581965B88DBD9C70F6D5BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013199D65A3E7211DFBCB90A9DDAA7F6 /* JZWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JZWebViewController.xcconfig; sourceTree = "<group>"; };
+		034EDE21158D0FAF67D852241B042810 /* Pods-JZWebViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JZWebViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		06FD844B0022CF38618770FAF3222401 /* JZWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JZWebViewController.m; sourceTree = "<group>"; };
+		10B05DC97AD37C80B914DC02966721D2 /* Pods-JZWebViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JZWebViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		31A3F97C9000481FAA6FF10C8E9C71AA /* Pods-JZWebViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JZWebViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3DAD356585ACD8A149B31613105B03EB /* ResourceBundle-JZWebViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JZWebViewController-Info.plist"; sourceTree = "<group>"; };
+		403C8750AE4FDE736C0B869B9E516A76 /* Pods-JZWebViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JZWebViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		598B3EBF5E1C990F7B0F6FDDCA3D0601 /* Pods-JZWebViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JZWebViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		69370FB93CC349DDA3B1AAF7C781517B /* JZWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JZWebViewController.modulemap; sourceTree = "<group>"; };
+		6A9C69E322065D9CEFDA513F65B44A8B /* Pods-JZWebViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JZWebViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7167684DBCA91B0D972501D78A215AD0 /* JZWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JZWebViewController-umbrella.h"; sourceTree = "<group>"; };
+		723058FDE5BAFD37EDBFB4907A62ACDB /* JZWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JZWebViewController.h; sourceTree = "<group>"; };
+		792E0B980CC7D3033F45DC4ED564D533 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B97911A824F0B9C4E0142375CF0BF70 /* Pods-JZWebViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JZWebViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		831E5A5273CBFEE3FC582FA842A59784 /* JZWebViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JZWebViewController.bundle; path = JZWebViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B6BD61D4520702B6BDB2446C6693477 /* Pods_JZWebViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JZWebViewController_Example.framework; path = "Pods-JZWebViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF62F95692C2F03DA70C183113F904D /* Pods-JZWebViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JZWebViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8D295AC0E4118499C5E3559BFD73FC7B /* JZWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JZWebViewController-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9830AF78887EB3FC594E400A95444E05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C89F6D4628C6EC94E8077666C087E9 /* JZWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JZWebViewController.framework; path = JZWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2988D7F1EEBDA89D54E3F45D57842C /* Pods-JZWebViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JZWebViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		AE85B856A6F92BD8643B619608B906B7 /* Pods-JZWebViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JZWebViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1C17D907356729349D54A7DE8F0D578 /* Pods-JZWebViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JZWebViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B359738EA800F5FF7C24EB0F27E51470 /* Pods-JZWebViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JZWebViewController_Example.modulemap"; sourceTree = "<group>"; };
+		BA81EF5F6C2082D448CD828C90818E24 /* Pods-JZWebViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JZWebViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA3C9EDE12DF5FF20C954116B07BA966 /* Pods-JZWebViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JZWebViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA577A9724B70ED15D1E294987CC7A21 /* JZWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JZWebViewController-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCF9D93BD012F0AAF32A3F8EBFB41C69 /* Pods-JZWebViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JZWebViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		D891F2265A24C782A10D12CCF7CB091D /* Pods-JZWebViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JZWebViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD5657D3435447F904C9B4F27C6BB3F7 /* Pods-JZWebViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JZWebViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		E67C80F22A0D75832D7A84FEAE54BD05 /* Pods-JZWebViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JZWebViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E7F42CC782B6B17DE09CD789FC242C89 /* Pods_JZWebViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JZWebViewController_Tests.framework; path = "Pods-JZWebViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC48AF033B681D20BD0BA7C1CAEB961 /* jz_icon_arrowback_hl@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "jz_icon_arrowback_hl@2x.png"; sourceTree = "<group>"; };
+		FE689FBFFCD9710F52009A584846E961 /* jz_icon_arrowback@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "jz_icon_arrowback@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3174B663EE1B25BD2D31E65DF6AC0E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08F592533513AB5480A9B25DC8772C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43918FEB71160F0892C96D9144AD0495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA523448286BED70CF63D554601FA736 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CF2EA27EAB8F42F10999E678F5E6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B737FA97878EB790D1750A8F160A596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB00B11115692D275F05AFB38234A6C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01CC5E671A367C7C4F55BA6A2967290C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F41B244DC4FACB8CC69424CE4E369D89 /* Pods-JZWebViewController_Example */,
+				E75F51266A99F34641BEC7A538AE6935 /* Pods-JZWebViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		410102F01CF1E1629264641DA20D8267 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42D4483E0CC231B9AA70457A8181D169 /* JZWebViewController */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		422337259E91D1C9EA55C5EF6B10990F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				723058FDE5BAFD37EDBFB4907A62ACDB /* JZWebViewController.h */,
+				06FD844B0022CF38618770FAF3222401 /* JZWebViewController.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		42D4483E0CC231B9AA70457A8181D169 /* JZWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				74B084A9782E326D8757A9E635A305B7 /* Assets */,
+			);
+			name = JZWebViewController;
+			path = JZWebViewController;
+			sourceTree = "<group>";
+		};
+		52FF05087C7AF99F8A74862E2A0DFA8A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				792E0B980CC7D3033F45DC4ED564D533 /* Info.plist */,
+				69370FB93CC349DDA3B1AAF7C781517B /* JZWebViewController.modulemap */,
+				013199D65A3E7211DFBCB90A9DDAA7F6 /* JZWebViewController.xcconfig */,
+				CA577A9724B70ED15D1E294987CC7A21 /* JZWebViewController-dummy.m */,
+				8D295AC0E4118499C5E3559BFD73FC7B /* JZWebViewController-prefix.pch */,
+				7167684DBCA91B0D972501D78A215AD0 /* JZWebViewController-umbrella.h */,
+				3DAD356585ACD8A149B31613105B03EB /* ResourceBundle-JZWebViewController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JZWebViewController";
+			sourceTree = "<group>";
+		};
+		74B084A9782E326D8757A9E635A305B7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FE689FBFFCD9710F52009A584846E961 /* jz_icon_arrowback@2x.png */,
+				FCC48AF033B681D20BD0BA7C1CAEB961 /* jz_icon_arrowback_hl@2x.png */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		753638504833AD8AC3B6FC9242D94B91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				831E5A5273CBFEE3FC582FA842A59784 /* JZWebViewController.bundle */,
+				A6C89F6D4628C6EC94E8077666C087E9 /* JZWebViewController.framework */,
+				8B6BD61D4520702B6BDB2446C6693477 /* Pods_JZWebViewController_Example.framework */,
+				E7F42CC782B6B17DE09CD789FC242C89 /* Pods_JZWebViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				98E18780F5356C90392F437FFE9848E2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				753638504833AD8AC3B6FC9242D94B91 /* Products */,
+				01CC5E671A367C7C4F55BA6A2967290C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98E18780F5356C90392F437FFE9848E2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D950A86F4D8F89CA5363C51D2172AF54 /* JZWebViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D950A86F4D8F89CA5363C51D2172AF54 /* JZWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E12800812E3FD8ED46A17BF71D69C17F /* JZWebViewController */,
+				410102F01CF1E1629264641DA20D8267 /* Resources */,
+				52FF05087C7AF99F8A74862E2A0DFA8A /* Support Files */,
+			);
+			name = JZWebViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E12800812E3FD8ED46A17BF71D69C17F /* JZWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				422337259E91D1C9EA55C5EF6B10990F /* Classes */,
+			);
+			name = JZWebViewController;
+			path = JZWebViewController;
+			sourceTree = "<group>";
+		};
+		E75F51266A99F34641BEC7A538AE6935 /* Pods-JZWebViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				010D73A7E0581965B88DBD9C70F6D5BD /* Info.plist */,
+				7B97911A824F0B9C4E0142375CF0BF70 /* Pods-JZWebViewController_Tests.modulemap */,
+				BA81EF5F6C2082D448CD828C90818E24 /* Pods-JZWebViewController_Tests-acknowledgements.markdown */,
+				31A3F97C9000481FAA6FF10C8E9C71AA /* Pods-JZWebViewController_Tests-acknowledgements.plist */,
+				DD5657D3435447F904C9B4F27C6BB3F7 /* Pods-JZWebViewController_Tests-dummy.m */,
+				8BF62F95692C2F03DA70C183113F904D /* Pods-JZWebViewController_Tests-frameworks.sh */,
+				10B05DC97AD37C80B914DC02966721D2 /* Pods-JZWebViewController_Tests-resources.sh */,
+				034EDE21158D0FAF67D852241B042810 /* Pods-JZWebViewController_Tests-umbrella.h */,
+				AE85B856A6F92BD8643B619608B906B7 /* Pods-JZWebViewController_Tests.debug.xcconfig */,
+				6A9C69E322065D9CEFDA513F65B44A8B /* Pods-JZWebViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-JZWebViewController_Tests";
+			path = "Target Support Files/Pods-JZWebViewController_Tests";
+			sourceTree = "<group>";
+		};
+		F41B244DC4FACB8CC69424CE4E369D89 /* Pods-JZWebViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9830AF78887EB3FC594E400A95444E05 /* Info.plist */,
+				B359738EA800F5FF7C24EB0F27E51470 /* Pods-JZWebViewController_Example.modulemap */,
+				D891F2265A24C782A10D12CCF7CB091D /* Pods-JZWebViewController_Example-acknowledgements.markdown */,
+				CA3C9EDE12DF5FF20C954116B07BA966 /* Pods-JZWebViewController_Example-acknowledgements.plist */,
+				AA2988D7F1EEBDA89D54E3F45D57842C /* Pods-JZWebViewController_Example-dummy.m */,
+				E67C80F22A0D75832D7A84FEAE54BD05 /* Pods-JZWebViewController_Example-frameworks.sh */,
+				598B3EBF5E1C990F7B0F6FDDCA3D0601 /* Pods-JZWebViewController_Example-resources.sh */,
+				CCF9D93BD012F0AAF32A3F8EBFB41C69 /* Pods-JZWebViewController_Example-umbrella.h */,
+				B1C17D907356729349D54A7DE8F0D578 /* Pods-JZWebViewController_Example.debug.xcconfig */,
+				403C8750AE4FDE736C0B869B9E516A76 /* Pods-JZWebViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-JZWebViewController_Example";
+			path = "Target Support Files/Pods-JZWebViewController_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13C3865237845464CF4D7AD1E5431BE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECE822DB21D85549C2348EBB847B502 /* JZWebViewController-umbrella.h in Headers */,
+				56172F5353FACB782B761C86C4E26676 /* JZWebViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8F0C746F6FD8F16DB05E8182C10D78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9111ADEE5D2E647A0F67A843F6D18C /* Pods-JZWebViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7812DFA129D9857A3E1277105BCF3548 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A53D3ECBE62952C5A219CEF3093133 /* Pods-JZWebViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C9F4DF5B6C0581B6BADE1F04A38C621 /* JZWebViewController-JZWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62A69C2C2537848FEFD9E6B045097DBE /* Build configuration list for PBXNativeTarget "JZWebViewController-JZWebViewController" */;
+			buildPhases = (
+				03447D7AD7C2A335FCB011E948D7C158 /* Sources */,
+				84CF2EA27EAB8F42F10999E678F5E6C9 /* Frameworks */,
+				44257C1411E3AEE55BEFBECC3CF7D6FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JZWebViewController-JZWebViewController";
+			productName = "JZWebViewController-JZWebViewController";
+			productReference = 831E5A5273CBFEE3FC582FA842A59784 /* JZWebViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B7ACB45C48B12BA9DC25ADD657B48A74 /* JZWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0390697C288665F01E66D78E7307628F /* Build configuration list for PBXNativeTarget "JZWebViewController" */;
+			buildPhases = (
+				D3FEAA7D20AD12D8DE5BD6F6B5758F68 /* Sources */,
+				3174B663EE1B25BD2D31E65DF6AC0E97 /* Frameworks */,
+				B2CA89D2B6F4F472651DC24078298869 /* Resources */,
+				13C3865237845464CF4D7AD1E5431BE4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5336E88576962C91A38BB36C0F24032E /* PBXTargetDependency */,
+			);
+			name = JZWebViewController;
+			productName = JZWebViewController;
+			productReference = A6C89F6D4628C6EC94E8077666C087E9 /* JZWebViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7E55B4E229766F3C5A2B4C65E288FD5 /* Pods-JZWebViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D75D742FBFDBC6F596A96B987B7A6C /* Build configuration list for PBXNativeTarget "Pods-JZWebViewController_Example" */;
+			buildPhases = (
+				106FF749B819DFBC07E69550CE5DC6E5 /* Sources */,
+				43918FEB71160F0892C96D9144AD0495 /* Frameworks */,
+				7812DFA129D9857A3E1277105BCF3548 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90DDF63CE4D8E216E6B1B2C337C5AB82 /* PBXTargetDependency */,
+			);
+			name = "Pods-JZWebViewController_Example";
+			productName = "Pods-JZWebViewController_Example";
+			productReference = 8B6BD61D4520702B6BDB2446C6693477 /* Pods_JZWebViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E87983FD5311A9565B01FF232D0DAC6A /* Pods-JZWebViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 509C646D5F315D6DA34DA5E794FCBA64 /* Build configuration list for PBXNativeTarget "Pods-JZWebViewController_Tests" */;
+			buildPhases = (
+				3EE665EC6722C6A8CB30EF3927FB85A4 /* Sources */,
+				9B737FA97878EB790D1750A8F160A596 /* Frameworks */,
+				3D8F0C746F6FD8F16DB05E8182C10D78 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JZWebViewController_Tests";
+			productName = "Pods-JZWebViewController_Tests";
+			productReference = E7F42CC782B6B17DE09CD789FC242C89 /* Pods_JZWebViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 753638504833AD8AC3B6FC9242D94B91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7ACB45C48B12BA9DC25ADD657B48A74 /* JZWebViewController */,
+				4C9F4DF5B6C0581B6BADE1F04A38C621 /* JZWebViewController-JZWebViewController */,
+				E7E55B4E229766F3C5A2B4C65E288FD5 /* Pods-JZWebViewController_Example */,
+				E87983FD5311A9565B01FF232D0DAC6A /* Pods-JZWebViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44257C1411E3AEE55BEFBECC3CF7D6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940DC816318EA129326B4E23537642F8 /* jz_icon_arrowback@2x.png in Resources */,
+				06A365AC2207C49639371832DA9DBC7B /* jz_icon_arrowback_hl@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CA89D2B6F4F472651DC24078298869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595C1679DB58DEE11601243A16DAE7AA /* JZWebViewController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03447D7AD7C2A335FCB011E948D7C158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106FF749B819DFBC07E69550CE5DC6E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED3C8228DC942B00DE18F48788F6181 /* Pods-JZWebViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE665EC6722C6A8CB30EF3927FB85A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC90C87145489873FA5DD648F79A82EE /* Pods-JZWebViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FEAA7D20AD12D8DE5BD6F6B5758F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D232B1CEC411460597BED61A164FFCA5 /* JZWebViewController-dummy.m in Sources */,
+				9445C1CB58EB77F481E37CBE8986459F /* JZWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5336E88576962C91A38BB36C0F24032E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JZWebViewController-JZWebViewController";
+			target = 4C9F4DF5B6C0581B6BADE1F04A38C621 /* JZWebViewController-JZWebViewController */;
+			targetProxy = EBC315C369F3C7E75F5E6DCDA974BAEB /* PBXContainerItemProxy */;
+		};
+		90DDF63CE4D8E216E6B1B2C337C5AB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JZWebViewController;
+			target = B7ACB45C48B12BA9DC25ADD657B48A74 /* JZWebViewController */;
+			targetProxy = C50392A45ECA3756F8A5E73C44AA6582 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F968E7715A70C1661AEDFC10608CF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A9C69E322065D9CEFDA513F65B44A8B /* Pods-JZWebViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JZWebViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JZWebViewController_Tests/Pods-JZWebViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JZWebViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27B7C7714A662E85AE670BE76413CEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 403C8750AE4FDE736C0B869B9E516A76 /* Pods-JZWebViewController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JZWebViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JZWebViewController_Example/Pods-JZWebViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JZWebViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C0ADE80CEAAC30BDFFE011FD837B322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 013199D65A3E7211DFBCB90A9DDAA7F6 /* JZWebViewController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JZWebViewController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/JZWebViewController/ResourceBundle-JZWebViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JZWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4FDE884AC14A8B475B4F5411CE472942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 013199D65A3E7211DFBCB90A9DDAA7F6 /* JZWebViewController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JZWebViewController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/JZWebViewController/ResourceBundle-JZWebViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JZWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6259042A6D5871ABA4ED77DCA16A91DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 013199D65A3E7211DFBCB90A9DDAA7F6 /* JZWebViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JZWebViewController/JZWebViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JZWebViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JZWebViewController/JZWebViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JZWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B1326985585A56DA89972FD134C8D4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C17D907356729349D54A7DE8F0D578 /* Pods-JZWebViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JZWebViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JZWebViewController_Example/Pods-JZWebViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JZWebViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3DB6D03A82518675C1B715354623935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE85B856A6F92BD8643B619608B906B7 /* Pods-JZWebViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JZWebViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JZWebViewController_Tests/Pods-JZWebViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JZWebViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDC9A7373F51EC6F17F46243E4DDFB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 013199D65A3E7211DFBCB90A9DDAA7F6 /* JZWebViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JZWebViewController/JZWebViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JZWebViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JZWebViewController/JZWebViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JZWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0390697C288665F01E66D78E7307628F /* Build configuration list for PBXNativeTarget "JZWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC9A7373F51EC6F17F46243E4DDFB79 /* Debug */,
+				6259042A6D5871ABA4ED77DCA16A91DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		509C646D5F315D6DA34DA5E794FCBA64 /* Build configuration list for PBXNativeTarget "Pods-JZWebViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DB6D03A82518675C1B715354623935 /* Debug */,
+				1F968E7715A70C1661AEDFC10608CF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62A69C2C2537848FEFD9E6B045097DBE /* Build configuration list for PBXNativeTarget "JZWebViewController-JZWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C0ADE80CEAAC30BDFFE011FD837B322 /* Debug */,
+				4FDE884AC14A8B475B4F5411CE472942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D75D742FBFDBC6F596A96B987B7A6C /* Build configuration list for PBXNativeTarget "Pods-JZWebViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1326985585A56DA89972FD134C8D4D6 /* Debug */,
+				27B7C7714A662E85AE670BE76413CEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

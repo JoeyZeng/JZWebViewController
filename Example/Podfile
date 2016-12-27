@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JZWebViewController_Example' do
+  pod 'JZWebViewController', :path => '../'
+
+  target 'JZWebViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module JZWebViewController {
+  umbrella header "JZWebViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
