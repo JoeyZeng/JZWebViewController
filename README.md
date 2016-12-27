@@ -5,11 +5,17 @@
 [![License](https://img.shields.io/cocoapods/l/JZWebViewController.svg?style=flat)](http://cocoapods.org/pods/JZWebViewController)
 [![Platform](https://img.shields.io/cocoapods/p/JZWebViewController.svg?style=flat)](http://cocoapods.org/pods/JZWebViewController)
 
+## Introduction
+
+Simple web view controller using wkwebview with progress. Best performent to display web view in app.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+iOS 8 or later
 
 ## Installation
 
