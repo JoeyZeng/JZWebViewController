@@ -67,12 +67,12 @@ static void *JZProgressKeyPathContext = &JZProgressKeyPathContext;
 
 -(UIBarButtonItem*)customBackBarItem{
     if (!_customBackBarItem) {
-//        UIImage* backItemImage = [[UIImage imageNamed:@"jz_icon_arrowback"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
-//        UIImage* backItemHlImage = [[UIImage imageNamed:@"jz_icon_arrowback_hl"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
         
-                UIImage* backItemImage = [UIImage imageNamed:@"jz_icon_arrowback"];
-                UIImage* backItemHlImage = [UIImage imageNamed:@"jz_icon_arrowback_hl"];
-
+        NSURL *url = [[NSBundle bundleForClass:[self class]] URLForResource:@"JZWebViewController" withExtension:@"bundle"];
+        NSBundle *resourceBundle = [NSBundle bundleWithURL:url];
+        
+        UIImage* backItemImage = [[UIImage imageNamed:@"jz_icon_arrowback" inBundle:resourceBundle compatibleWithTraitCollection:nil] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+        UIImage* backItemHlImage = [[UIImage imageNamed:@"jz_icon_arrowback_hl" inBundle:resourceBundle compatibleWithTraitCollection:nil] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
         
         UIButton* backButton = [[UIButton alloc] init];
         [backButton setTitle:@"返回" forState:UIControlStateNormal];
