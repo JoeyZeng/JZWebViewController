@@ -27,7 +27,6 @@ Simple web view controller using wkwebview with progress. Best performent to dis
   s.author           = { 'Joey' => 'zzying77@qq.com' }
   s.source           = { :git => 'https://github.com/JoeyZeng/JZWebViewController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.preserve_paths = 'Carthage/Build/iOS/Sweet.framework'
 
   s.ios.deployment_target = '8.0'
 
